@@ -1,0 +1,13 @@
+plugins { id 'com.android.application' }
+
+android {
+    namespace 'com.msl.journal'
+    compileSdk 35
+    defaultConfig {
+        applicationId 'com.msl.tradingjournal'
+        minSdk 23
+        targetSdk 35
+        versionCode 101
+        versionName '10.1 Premium'
+    }
+}
